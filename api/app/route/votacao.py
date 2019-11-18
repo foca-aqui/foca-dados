@@ -1,7 +1,6 @@
 from flask import jsonify, Blueprint
 from flask import request
 from ..controller.controller_votacao import ControllerVotacao
-from ..model.votacao import Votacao
 
 
 votacao = Blueprint('votacao', __name__, url_prefix='/votacao')
@@ -22,9 +21,5 @@ def get_votacao():
 
 @votacao.route('/teste',  methods=['GET'])
 def teste_votacao():
-
-    v = Votacao()
-    v.nome = 'Lorena'
-    v.save()
 
     return jsonify(resultado='Passou no teste')

@@ -1,4 +1,4 @@
-from . import db
+from app.model.data import db
 
 
 class Votacao(db.Document):

@@ -7,7 +7,7 @@ def make_app():
     app.config['MONGODB_HOST'] = '127.0.0.1'
     app.config['MONGODB_CONNECT'] = False
 
-    from app.model import db
+    from app.model.data import db
     db.init_app(app)
 
     _register_blueprints(app)
