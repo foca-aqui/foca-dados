@@ -29,5 +29,3 @@ nós analisamos apenas o arquivo referente ao estado do Rio de Janeiro fazendo e
 o municício de Rio de Janeiro.
 
 Os arquivos separados referente ao estado do Rio de Janeiro também podem ser encontrados [aqui](https://drive.google.com/open?id=1chscZ-xCL2KS--PORm8o2fmiQNecgAP8).
-
-**Obs: Nesse momento os notebooks foram usados para testar os resultados de forma fácil, posteriormente serão retirados.**
