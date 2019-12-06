@@ -23,6 +23,3 @@
 
 # Arquivos pycache
 __pycache__/
-
-# Pasta com dados
-dados/
